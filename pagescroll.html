@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Page Scroll</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			overflow-x: hidden;
+			font: 1.2rem"Lucida Grande", Sans-Serif !important;
+			background-color: #fff;
+			margin-top: 130px;
+		}
+		header,
+		footer,
+		section {
+			display: block;
+		}
+		ul {
+			list-style: none;
+		}
+		li {
+			display: inline-block;
+			background-color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+		}
+		a {
+			text-decoration: none;
+		}
+		.one a[href="#one"],
+		.two a[href="#two"],
+		.three a[href="#three"],
+		.four a[href="#four"] {
+			text-decoration: underline;
+		}
+		h1 {
+			margin: 10px 0;
+		}
+		header {
+			height: 130px;
+			background-color: #d1e99f;
+			padding: 0 80px 0 80px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+		}
+		#main {
+			padding: 40px 80px;
+		}
+		section {
+			margin-bottom: 20px;
+		}
+		.top {
+			background-color: #d1e99f;
+			display: inline-block;
+			color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+			margin: 10px 0;
+		}
+		footer {
+			text-align: center;
+			margin-bottom: 130px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<h1 id="header" name="header">Header</h1> 
+		<nav>
+
+			<ul>
+				<li><a href="#one" data-scroll="true">One</a>
+				</li>
+				<li><a href="#two" data-scroll="true">Two</a>
+				</li>
+				<li><a href="#three" data-scroll="true">Three</a>
+				</li>
+				<li><a href="#four" data-scroll="true">Four</a>
+				</li>
+			</ul>
+
+		</nav>
+
+	</header>
+	<div id="main" role="main">
+		<section>
+
+			<h2 id="one" name="one">One</h2>
+			<p>One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One. One.</p>
+			<p class="top"><a href="#header" data-scroll="true">Top</a>
+			</p>
+		</section>
+
+
+		<section>
+
+			<h2 id="two" name="two">Two</h2>
+			<p>Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two. Two two.</p>
+			<p class="top"><a href="#header" data-scroll="true">Top</a>
+			</p>
+		</section>
+
+
+		<section>
+
+			<h2 id="three" name="three">Three</h2>
+			<p>Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three. Three three three.</p>
+			<p class="top"><a href="#header" data-scroll="true">Top</a>
+			</p>
+		</section>
+
+		<section>
+
+			<h2 id="four" name="four">Four</h2>
+			<p>Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four. Four four four four.</p>
+			<p class="top"><a href="#header" data-scroll="true">Top</a>
+			</p>
+
+		</section>
+	</div>
+
+	<footer id="footer" name="footer">
+		<nav>
+
+			<ul>
+				<li><a href="#one" data-scroll="true">One</a>
+				</li>
+				<li><a href="#two" data-scroll="true">Two</a>
+				</li>
+				<li><a href="#three" data-scroll="true">Three</a>
+				</li>
+				<li><a href="#four" data-scroll="true">Four</a>
+				</li>
+			</ul>
+
+		</nav>
+	</footer>
+
+	<script src="pagescroll.js"></script>
+</body>
+
+</html>
